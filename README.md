@@ -15,6 +15,19 @@ The dataset includes over 8 months of historical data for 134 wind turbines, inc
 ### Preparing the Data
 Place the [data](https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets) in the `data/` directory.
 
+
+### Configuring the Parameters
+All the configurable parameters, such as the number of layers and features used, are defined in the prepare.py file as a dictionary. Modify this file as needed to align with your specific requirements or experimental setup.
+
+## Training the Models
+To train the RNN or GRU model, run the following command:
+
+```shell
+python train.py
+```
+
+By default, the train.py script specifies the model as a plain RNN. To use the GRU model, modify the prepare.py file as needed.
+
 ## Methodology
 
 The methodology involved:
