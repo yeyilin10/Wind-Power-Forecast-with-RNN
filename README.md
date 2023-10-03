@@ -46,6 +46,4 @@ The model achieved an RMSE of 53.58 and an MAE of 44.03, demonstrating the effec
 
 This project was conducted as part of the 2022 KDD Cup Spatial Dynamic Wind Power Forecast Challenge. The goal of the challenge was to facilitate progress in data-driven machine learning methods for wind power forecasting. The project aimed to learn more about the latest trends and techniques in the field of wind power forecasting and their potential applications in the renewable energy industry.
 
-## Contact
 
-For any queries, feel free to reach out to Zoe Ye at ylye@connect.ust.hk
