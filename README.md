@@ -9,15 +9,11 @@ Baidu also offers a preliminary solution by a simple GRU model, baseline codes s
 The project involves predicting wind power production using Recurrent Neural Networks (RNNs) and Gated Recurrent Units (GRU), two powerful models for sequential data analysis. This is crucial for integrating renewable energy sources into the electrical grid due to their high variability. The models are used to forecast power production for 134 wind turbines over 2 days intervals, using 245 days of historical context data.
 
 ## Dataset
-
 The dataset includes over 8 months of historical data for 134 wind turbines, including power production, wind speed, direction, temperature, and other turbine internal status variables. 
 
 ### Preparing the Data
-Place the [data](https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets) in the `data/` directory.
+Find the dataset here: [data](https://aistudio.baidu.com/aistudio/competition/detail/152/0/datasets), download and place in the `data/` directory.
 
-
-### Configuring the Parameters
-All the configurable parameters, such as the number of layers and features used, are defined in the prepare.py file as a dictionary. Modify this file as needed to align with your specific requirements or experimental setup.
 
 ## Training the Models
 To train the RNN or GRU model, run the following command:
